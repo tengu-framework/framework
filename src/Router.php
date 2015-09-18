@@ -36,7 +36,7 @@ class Router
      *
      * @return void
      */
-    public function load()
+    public function handle()
     {
         $this->getController();
 
